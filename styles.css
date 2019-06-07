@@ -1,0 +1,63 @@
+﻿html, body {
+    height:100%;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+#hero {
+    background:url("http://localhost:51761/Images/1.jpg");
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    width:100%;
+    display:flexbox;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    margin-top:70px;
+    z-index:-50;
+}
+    #hero > h1 {
+        color:white;
+                font-family:'Abel', sans-serif;
+                font-size:30px;
+                
+    }
+    #hero > h2 {
+        color:#fff;
+                font-family: 'Patua One', cursive;
+                font-size:10px;
+                
+
+    }
+
+.navig {
+    background-color:black;
+    height:70px;
+    width:100%;
+    z-index:99999999;
+}
+  .navig #logo {
+        color:#fff;
+        padding:20px 0px 0px 25px;
+        font-size:24px;
+    }
+  .navig #links, #logo {
+        display:inline-block;
+
+    }
+    .navig #links {
+        list-style:none;
+        padding:0px;
+        position:absolute;
+        top:0px;
+        right:0px;
+        padding:20px 25px 0px 0px;
+    }
+  
+        .navig #links > li {
+            display:inline-block;
+            color:#fff;
+            padding-right:15px;
+        }

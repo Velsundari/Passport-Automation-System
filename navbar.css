@@ -1,0 +1,98 @@
+﻿          * {
+                padding:0;
+                margin:0;
+
+            }
+            body {
+                background: #eee;
+                image-attachment:fixed;
+            }
+           bg-image {
+                width:100%;
+                height:600px;
+                background-size:cover;
+            }
+            container {
+                width:200px;
+                height:100px;
+                position:absolute;
+                margin: 0 auto;          
+            }
+            header {
+                width:auto;
+                padding:20px;
+                background-color:red;
+            }
+            ul {
+                margin:0px;
+                padding:0px;
+                list-style:none;
+                
+            }
+            ul li {
+                float:left;
+                width:215px;
+                height:40px;
+                background-color:black;
+                opacity:0.7;
+                font-family: 'Abel',sans-serif;
+                font-size: 20px;
+                font-weight: bold;  
+                line-height:40px;
+                text-align:center; 
+                margin-right:1px; 
+                margin-left:1px; 
+                
+                
+                
+            }
+                ul li  a {
+                    text-decoration:none;
+                    color:white;
+                    display:block;
+                }
+                    ul  li  a:hover {
+                        background-color:green;
+                    }
+                ul  li  ul  li {
+                    display:none;
+                }
+                ul  li:hover ul  li {
+                    display:block;
+                }
+            logo {
+                color:white;
+                font-family:'Abel', sans-serif;
+                font-size:30px;
+                position:fixed;
+                padding:20px;
+                background-color:black;
+                width:100%;
+
+            }
+            brand-quote {
+                color:#fff;
+                font-family: 'Patua One', cursive;
+                font-size:50px;
+                padding-left:20px;
+                position:relative;
+                top:100px;
+            }
+            para {
+                width:500px;
+                font-family: 'Montserrat', sans-serif;
+                color:#fff;
+                position:relative;
+                top:100px;
+                padding-left:20px;
+            }
+            social-media {
+                background-color:red;
+            }
+           mySlides {
+               display:none;
+           }
+           carousal{
+               background-size:cover;
+               }
+            
